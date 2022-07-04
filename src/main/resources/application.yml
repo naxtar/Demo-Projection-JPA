@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: data-jpa-projections
+  datasource:
+    url: jdbc:postgresql://localhost:5432/coface_srp
+    username: postgres
+    password: example
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL95Dialect
+server:
+  error:
+    include-message: always
