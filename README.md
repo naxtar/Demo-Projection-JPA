@@ -1,1 +1,1 @@
-# Demo-Projection-JPA
+# Data JPA Projections
